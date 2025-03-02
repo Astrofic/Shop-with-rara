@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP WITH RARA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>SHOP WITH RARA</h1>
+        <p>Girly Accessories for Every Girl</p>
+    </header>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="IMG_4395.jpeg" alt="Lip Gloss">
+                <h3>Lip Gloss</h3>
+                <p>₦3000</p>
+                <a href="https://wa.me/2349131439398?text=I%20want%20to%20order%20Lip%20Gloss" class="order-button">Order via WhatsApp</a>
+            </div>
+            <div class="product-item">
+                <img src="IMG_4398.jpeg" alt="Lip Mask">
+                <h3>Lip Mask</h3>
+                <p>₦800</p>
+                <a href="https://wa.me/2349131439398?text=I%20want%20to%20order%20Lip%20Mask" class="order-button">Order via WhatsApp</a>
+            </div>
+             <div class="product-item">
+                <img src="IMG_4399.jpeg" alt="Eye Mask">
+                <h3>Eye Mask</h3>
+                <p>₦800</p>
+                 <a href="https://wa.me/2349131439398?text=I%20want%20to%20order%20Eye%20Mask" class="order-button">Order via WhatsApp</a>
+            </div>
+            <div class="product-item">
+                <img src="IMG_4400.jpeg" alt="Sheet Mask">
+                <h3>Sheet Mask</h3>
+                <p>₦1000</p>
+                <a href="https://wa.me/2349131439398?text=I%20want%20to%20order%20Sheet%20Mask" class="order-button">Order via WhatsApp</a>
+            </div>
+            <div class="product-item">
+                <img src="IMG_4402.jpeg" alt="Scrunchies (small)">
+                <h3>Scrunchies (small)</h3>
+                <p>₦700</p>
+                <a href="https://wa.me/2349131439398?text=I%20want%20to%20order%20Scrunchies%20(small)" class="order-button">Order via WhatsApp</a>
+            </div>
+            <div class="product-item">
+                <img src="IMG_4403.jpeg" alt="Hair Bow (big)">
+                <h3>Hair Bow (big)</h3>
+                <p>₦2000</p>
+                <a href="https://wa.me/2349131439398?text=I%20want%20to%20order%20Hair%20Bow%20(big)" class="order-button">Order via WhatsApp</a>
+            </div>
+             <div class="product-item">
+                <img src="IMG_4406.jpeg" alt="Perfume oil (small)">
+                <h3>Perfume oil (small)</h3>
+                <p>₦200</p>
+                <a href="https://wa.me/2349131439398?text=I%20want%20to%20order%20Perfume%20oil%20(small)" class="order-button">Order via WhatsApp</a>
+            </div>
+            <div class="product-item">
+                <img src="IMG_4405.jpeg" alt="Perfume oil (big)">
+                <h3>Perfume oil (big)</h3>
+                <p>₦5000</p>
+                <a href="https://wa.me/2349131439398?text=I%20want%20to%20order%20Perfume%20oil%20(big)" class="order-button">Order via WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Order via WhatsApp: <a href="https://wa.me/2349131439398"><i class="fab fa-whatsapp"></i> +234 913 143 9398</a></p>
+        <p>&copy; 2024 SHOP WITH RARA</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+                document.body.classList.add('scrolled-to-bottom');
+            } else {
+                document.body.classList.remove('scrolled-to-bottom');
+            }
+        });
+    </script>
+</body>
+</html>
